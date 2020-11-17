@@ -1,0 +1,42 @@
+/*CSS FOR MOBILE*/
+
+/*THIS IS CSS FOR DESKTOP*/
+
+/*@media only screen and (min-width: 768px) {*/
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: rgb(245, 123, 81);
+    z-index: 5;
+  }
+
+  .navbar__main {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item a p {
+    margin-top: 4px;
+    padding-left: 16px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 4px;
+    color:white;
+  }
+
+  .nav-item a p:hover {
+    color: rgb(0,53,87);
+  }
+
+  .main__cards {
+    padding: 100vh;
+  }
+
+
+  .navbar-brand > img {
+    margin-left: 16px;
+    height: 48px;
+    margin-top: 8px;
+  }

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <!-- THIS IS THE INITIAL BANNER -->
+    <div id="home" class="intro__banner">
+      <div class="intro__info">
+        <h1>Hi, I'm Olive</h1>
+        <h3>Ruby | RoR | JavaScript | HTML | CSS</h3>
+        <div class="banner__pic" id="myimage">&nbsp;</div>
+      </div>
+      <div class="scroll-btn">
+        <a href="#readmore"><i class="arrow down"></i></a>
+      </div>
+    </div>
+  <!-- BOOTSTRAP NAVBAR HERE -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div><a class="navbar-brand" href="#"><img src="images/logo.png"></a></div>
+      <div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"><p>Home</p><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#readmore"><p>About</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><p>My Projects</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- FROM HERE IS THE ABOUT PAGE INCLUDING TECH SKILLS AND ABOUT ME -->
+    <div class="about" id="readmore">
+      <div class="techskills__container">
+        <div class="techskills__title"><p>Tech-Skills</p></div>
+        <div class="techskills">
+          <div class="icons-row">
+            <i class="devicon-ruby-plain blue-icon"></i>
+            <i class="devicon-rails-plain-wordmark blue-icon"></i>
+            <i class="devicon-css3-plain-wordmark blue-icon"></i>
+            <i class="devicon-html5-plain-wordmark blue-icon"></i>
+          </div>
+          <div class="icons-row">
+            <i class="devicon-javascript-plain blue-icon"></i>
+            <i class="devicon-bootstrap-plain blue-icon"></i>
+            <i class="devicon-postgresql-plain-wordmark blue-icon"></i>
+            <i class="devicon-git-plain blue-icon"></i>
+          </div>
+          <div class="icons-row">
+            <i class="devicon-github-plain blue-icon"></i>
+            <i class="devicon-heroku-plain-wordmark blue-icon"></i>
+            <i class="devicon-webpack-plain blue-icon"></i>
+            <i class="devicon-yarn-plain blue-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="aboutme">
+        <h3>About Me</h3>
+        <p>My name is Olivia, I'm a recent graduate of Le Wagon's Web Development bootcamp and am currently looking for a job as a full-stack software engineer. I am excited to move into the world of tech after discovering my love for code!</p>
+        <p>
+        <a id="resume" href="./software-eng-cv.pdf" download="software-eng-cv.pdf" alt="CV">Download CV<i class="fa fa-download"></i></a>
+      </div>
+    </div>
+    <div class="scroll-btn scroll-btn-about">
+      <a href="#projects"><i class="arrow down"></i></a>
+    </div>
+
+    <!-- FROM HERE IS MY PROJECTS -->
+    <div class="myprojects" id="projects">
+      <h2 class="myprojects__title">My Projects</h2>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <a href="http://www.igive.community/"><div class="carousel-item active">
+            <img class="igive__image" src="images/igive.png" alt="iGive">
+            <div class="carousel-text">
+              <a href="http://www.igive.community/"><h3>iGive</h3></a><p>A mobile web app built with Ruby on Rails, for finding volunteer opportunities in your local neighbourhood (sign in with - username: bella@mail.com password: 123456)</p>
+            </div>
+          </div></a>
+          <a href="https://boaty-mc-boatface-oliviapom.herokuapp.com/"><div class="carousel-item">
+            <img class="boatface__image" src="images/boatface3.png" alt="Boatface">
+            <div class="carousel-text">
+              <a href="https://boaty-mc-boatface-oliviapom.herokuapp.com/"><h3>Boatface</h3></a><p>Desktop web app (Ruby on Rails) for luxury yacht rental, similar in structure to Air BnB</p>
+            </div>
+          </div></a>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- FROM HERE IS FOOTER -->
+    <div class="footer">
+      <div class="footer__info">
+        <h3>Please get in touch!</h3><p>I would love to hear from you!</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/olivia-pomeranc-b691841a4/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/OliviaPom"><i class="fab fa-github"></i></a>
+          <a href="mailto:opomeranc43@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <a href="#home"><div class="footer__logo"><img src="images/logo.png"></div></a>
+        <p> © Olivia Pomeranc 2020</p>
+      </div>
+    </div>
+    <!-- JAVASCRIPT SCRIPTS FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

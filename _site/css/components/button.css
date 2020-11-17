@@ -1,0 +1,65 @@
+/*resume button*/
+#resume {
+  padding: 8px 24px;
+  background: rgb(245, 123, 81);
+  border-radius: 2px;
+  color: white;
+
+}
+
+/*media query: scroll button for desktop*/
+@media only screen and (min-width: 768px) {
+
+  .scroll-btn {
+    width: 60px;
+    margin: auto;
+  }
+
+  .scroll-btn a {
+    padding: 16px;
+    border: 4px solid rgb(245, 123, 81);
+    border-radius: 50%;
+  }
+
+  .scroll-btn a {
+    padding: 16px;
+    border: 4px solid rgb(245, 123, 81);
+    border-radius: 50%;
+  }
+
+  .scroll-btn a:hover {
+    transition: 0.2s;
+    background: rgb(245, 123, 81);
+    padding: 16px;
+    border: 4px solid rgb(245, 123, 81);
+    border-radius: 50%;
+  }
+
+  .arrow {
+    margin: auto;
+    border: solid rgb(245, 123, 81);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .scroll-btn a:hover .arrow {
+    transition: 0.2s;
+    margin: auto;
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .scroll-btn-about {
+    margin-bottom: 40px;
+  }
+
+  .down {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+
+

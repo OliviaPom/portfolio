@@ -1,0 +1,102 @@
+/*CSS FOR MOBILE*/
+
+.intro__banner {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../../images/pattern.jpg");
+  height: 90vh;
+  width:100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__info {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(245, 123, 81);
+}
+
+.intro__info h1 {
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 10px rgb(0,0,0);
+  letter-spacing: 4px;
+  font-size: 50px;
+}
+
+.intro__info h3 {
+  font-size: 20px;
+  color: rgb(245, 123, 81);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.banner__pic {
+  margin-bottom: 60px;
+}
+
+
+  #myimage {
+    background-image: url(../../images/polyme.svg);
+    background-size: cover;
+    margin-top: 30px;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 45%;
+    border: 24px solid rgb(245, 123, 81);
+    transition: 1s;
+     }
+
+  #myimage:hover {
+    background-image: url(../../images/pic.jpg);
+     }
+
+/*MEDIA QUERIES : THIS IS CSS FOR DESKTOP*/
+
+@media only screen and (min-width: 768px) {
+
+  .intro__banner {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../../images/pattern.jpg");
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro__info h3 {
+    font-size: 30px;
+    color: rgb(245, 123, 81);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+  }
+
+  .intro__info h1 {
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px rgb(0,0,0);
+    letter-spacing: 4px;
+    font-size: 80px;
+  }
+
+  #myimage {
+    background-image: url(../../images/polyme.svg);
+    background-size: cover;
+    margin-top: 49px;
+    width: 22vw;
+    height: 49vh;
+    border-radius: 45%;
+    border: 24px solid rgb(245, 123, 81);
+    transition: 1s;
+     }
+
+  #myimage:hover {
+    background-image: url(../../images/pic.jpg);
+     }
+}
+
+
+
