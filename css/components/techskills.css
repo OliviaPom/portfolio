@@ -85,7 +85,7 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    margin-top: 45vh;
+    margin-top: 40vh;
     margin-bottom: 5vh;
     margin-left: 10vw;
     z-index: 1;
@@ -124,7 +124,7 @@
     padding: 60px 120px;
     /*z-index: -1;*/
     height: 400px;
-    margin-top: 25vh;
+    margin-top: 20vh;
     align-items: center;
     position: relative;
     left: -140px;

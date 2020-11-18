@@ -40,6 +40,13 @@
     margin-left: 8px;
   }
 
+  .portfolio__image {
+    margin-top: 20px;
+    height: 220px;
+    width: 350px;
+    margin-left: 8px;
+  }
+
   .carousel-text {
     text-align: center;
   }
@@ -51,6 +58,20 @@
   }
 
   .carousel-text > a > h3:hover {
+    color: rgb(245, 123, 81);
+    text-decoration: underline;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 2px;
+  }
+
+  .carousel-text > h3 {
+    color: rgb(245, 123, 81);
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .carousel-text > h3:hover {
     color: rgb(245, 123, 81);
     text-decoration: underline;
     font-family: 'Bowlby One SC', cursive;
@@ -104,9 +125,15 @@
 
   .boatface__image {
     margin-top: 50px;
-    width: 650px;
-    height: 350px;
+    width: 700px;
+    height: 380px;
     margin-left: 170px;
+  }
+
+  .portfolio__image {
+    height: 400px;
+    width: 700px;
+    margin-left: 110px;
   }
 
   .carousel-control-next-icon, .carousel-control-prev-icon {
