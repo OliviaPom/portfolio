@@ -23,11 +23,11 @@
   letter-spacing: 2px;
   text-shadow: 1px 1px 10px rgb(0,0,0);
   letter-spacing: 4px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .intro__info h3 {
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(245, 123, 81);
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1.5px;
@@ -43,9 +43,9 @@
     background-size: cover;
     margin-top: 30px;
     width: 250px;
-    height: 350px;
+    height: 300px;
     border-radius: 45%;
-    border: 24px solid rgb(245, 123, 81);
+    border: 16px solid rgb(245, 123, 81);
     transition: 1s;
      }
 
