@@ -42,8 +42,8 @@
     background-image: url(../../images/polyme.svg);
     background-size: cover;
     margin-top: 30px;
-    width: 70vw;
-    height: 50vh;
+    width: 250px;
+    height: 350px;
     border-radius: 45%;
     border: 24px solid rgb(245, 123, 81);
     transition: 1s;
