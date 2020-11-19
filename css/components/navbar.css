@@ -49,8 +49,9 @@
   }
 
   .navbar-brand > img {
-    margin-left: 16px;
-    height: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    height: 48px;
   }
 
 }
