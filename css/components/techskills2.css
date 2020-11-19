@@ -49,6 +49,9 @@
     font-size: 4rem;
     padding: 4px;
   }
+/* OLD ----- MEDIA QUERIES -  FOR DESKTOP (LONG BECAUSE OF Z-INDEX USE ETC) */
+
+@media only screen and (min-width: 768px) {
 
   .aboutme {
     color: rgb(245, 123, 81);
@@ -81,3 +84,4 @@
     margin-bottom: 60px;
     text-align: justify;
   }
+}
